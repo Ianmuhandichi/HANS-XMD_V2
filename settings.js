@@ -10,9 +10,9 @@ require('dotenv').config()
 
 //contact details - sensitive info moved to .env
 global.SESSION_ID = process.env.SESSION_ID || "" //fallback to default if not in .env
-global.ownernomer = process.env.OWNER_NUMBER || "255614195217"
+global.ownernomer = process.env.OWNER_NUMBER || "254723278526"
 
-global.ownername = process.env.OWNER_NAME || "HansTech"
+global.ownername = process.env.OWNER_NAME || "IAN TECH"
 
 global.ytname = "HANSTZ-TECH"
 
@@ -22,12 +22,12 @@ global.location = "AFRICA, TANZANIA, DODOMA"
 
 global.ownernumber = process.env.OWNER_NUMBER || '255614195217'  //Owner number
 
-global.ownername = process.env.OWNER_NAME || 'HANSTZ' //owner name
+global.ownername = process.env.OWNER_NAME || 'IAN TECH' //owner name
 global.botname = 'HANS-XMD' //name of the bot
 
 //sticker details
 global.packname = 'Sticker By'
-global.author = 'HANS-XMD'
+global.author = 'IAN'
 
 //console view/theme
 global.themeemoji = '⚠️'
@@ -46,7 +46,7 @@ global.autoRecording = false //auto recording
 global.autoTyping = false //auto typing
 global.autorecordtype = true //auto typing + recording
 global.autoread = false //auto read messages
-global.autobio = true //auto update bio
+global.autobio = false //auto update bio
 global.anti91 = false //auto block +91 
 global.autoswview = true //auto view status/story
 global.autoreact = false // This is For Auto React 
